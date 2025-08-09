@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /404error/
+
+sitemap: https://www.beaskonsult.com/sitemap.xml

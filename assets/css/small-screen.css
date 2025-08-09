@@ -1,0 +1,125 @@
+@media (max-width: 415px) {
+  .attention {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .attention {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 411px) {
+  .headline {
+    font-size: 25px!important;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .headline {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .support-headline {
+    font-size: 15px!important;
+  }
+}
+
+@media (max-width: 683px) and (min-width: 576px) {
+  .support-headline {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .cta-btn {
+    font-size: 15px!important;
+  }
+}
+
+@media (max-width: 683px) and (min-width: 576px) {
+  .cta-btn {
+    font-size: 22px!important;
+  }
+}
+
+@media (max-width: 415px) {
+  .cta-div {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 411px) and (min-width: 200px) {
+  .animate-counter {
+    font-size: 23px!important;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .animate-counter {
+    font-size: 70px!important;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 200px) {
+  .logo {
+    font-size: 18px!important;
+  }
+}
+
+@media (max-width: 575px) {
+  .tel-number {
+    display: none;
+  }
+}
+
+/* Cake Services */
+
+@media (max-width: 411px) {
+  #cake-an-art-Img {
+    width: 70%!important;
+  }
+}
+
+@media (max-width: 600px) {
+  .free-money-emoji {
+    height: 70px!important;
+  }
+}
+
+@media (max-width: 450px) {
+  .konsult-text {
+    font-size: 30px!important;
+  }
+}
+
+@media (max-width: 991px) {
+  .parallaxx {
+    font-size: 30px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+}
+
+@media (max-width: 400px) {
+  .parallaxx {
+    font-size: 20px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    padding-top: 10px!important;
+  }
+}
+
+@media (max-width: 400px) {
+  .beas-logo {
+    height: 60px!important;
+  }
+}
+
