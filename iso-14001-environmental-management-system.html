@@ -53,6 +53,27 @@
     <link rel="stylesheet" href="assets/css/syl.css?h=88f90c88598b99fbbdf526410c6a0cbf">
     <link rel="stylesheet" href="assets/css/Testimonials.css?h=33403b915e080d0d25db57d976decd4f">
     <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css?h=fce91b5a5548f20c4cbc68de76c4f100">
+    <!-- Start: Brands -->
+    <style>
+      .brands {
+        background: #010110;
+        display: flex;            /* put children in one row */
+        flex-wrap: nowrap;       /* prevent wrapping to new lines */
+        align-items: center;     /* vertical alignment */
+        gap: 16px;               /* spacing between logos */
+        padding: 8px;
+        overflow-x: auto;        /* allow horizontal scroll on small screens */
+      }
+    
+      .brands img {
+        display: inline-block;   /* override any global img {display:block} */
+        vertical-align: middle;
+        max-height: 80px;        /* keep logos similar height */
+        width: auto;
+      }
+    
+      .brands a { display:inline-block; } /* make sure links don't become blocks */
+    </style>
 </head>
 
 <body style="font-family: Acme, sans-serif, helvetica, inter;">
