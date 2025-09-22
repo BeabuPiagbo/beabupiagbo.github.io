@@ -53,6 +53,29 @@
     <link rel="stylesheet" href="assets/css/syl.css?h=88f90c88598b99fbbdf526410c6a0cbf">
     <link rel="stylesheet" href="assets/css/Testimonials.css?h=33403b915e080d0d25db57d976decd4f">
     <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css?h=fce91b5a5548f20c4cbc68de76c4f100">
+
+    <!-- Start: Brands -->
+    <style>
+      .brands {
+        background: #010110;
+        display: flex;            /* put children in one row */
+        flex-wrap: nowrap;       /* prevent wrapping to new lines */
+        align-items: center;     /* vertical alignment */
+        gap: 16px;               /* spacing between logos */
+        padding: 8px;
+        overflow-x: auto;        /* allow horizontal scroll on small screens */
+      }
+    
+      .brands img {
+        display: inline-block;   /* override any global img {display:block} */
+        vertical-align: middle;
+        max-height: 80px;        /* keep logos similar height */
+        width: auto;
+      }
+    
+      .brands a { display:inline-block; } /* make sure links don't become blocks */
+    </style>
+
 </head>
 
 <body style="font-family: Acme, sans-serif, helvetica, inter;">
@@ -82,7 +105,17 @@
             </div>
         </section><!-- End: header -->
         <!-- Start: Brands -->
-        <div class="brands" style="background: rgb(1,1,16);"><a> <img src="assets/img/brand/iso-management-system1.jpeg?h=b52771149715f48aa6d6cae632cbb136" style="width: 139px;"><img src="assets/img/brand/iso-management-system2.png?h=c6bfd75be5c2740deb912e41ddf5f0c6" style="height: 80px;"><img src="assets/img/brand/iso-management-system3.png?h=c0c0f9261b73311877454a60ae703aac"><img src="assets/img/brand/iso-management-systems-ISO.jpg?h=f569003efc4f021fd7e4e51d31510474" style="width: 170px;background: #000000;"><img src="assets/img/brand/PopularFarms.png?h=fd161d531b9ab96dc9e3364c52e2fefd" style="width: 170px;background: #000000;height: 34px;"></a></div><!-- End: Brands -->
+        <div class="brands" 
+        style="background: rgb(1,1,16); white-space: nowrap; display:flex; justify-content:center; align-items:center; gap:16px; background:#010110; padding:8px;" >
+          <img src="assets/img/brand/iso-management-system1.jpeg?h=b52771149715f48aa6d6cae632cbb136" style="width: 139px; vertical-align: middle;">
+          <img src="assets/img/brand/iso-management-system2.png?h=c6bfd75be5c2740deb912e41ddf5f0c6" style="height: 80px; vertical-align: middle;">
+          <a href="https://pecb.com">
+            <img src="assets/img/brand/iso-management-system3.png?h=c0c0f9261b73311877454a60ae703aac" style="vertical-align: middle;">
+          </a>
+          <img src="assets/img/brand/iso-management-systems-ISO.jpg?h=f569003efc4f021fd7e4e51d31510474" style="width: 170px; background: #000000; vertical-align: middle;">
+          <img src="assets/img/brand/PopularFarms.png?h=fd161d531b9ab96dc9e3364c52e2fefd" style="width: 170px; background: #000000; height: 34px; vertical-align: middle;">
+        </div>
+        <!-- End: Brands -->
         <!-- Start: problem -->
         <section class="clean-block clean-info dark" style="background: rgb(255,255,255);">
             <div class="container">
